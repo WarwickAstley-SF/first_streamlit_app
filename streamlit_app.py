@@ -1,5 +1,4 @@
 import streamlit
-python -m pip install --upgrade pip
 
 streamlit.title('My Parents New Healthy Diner')
 
