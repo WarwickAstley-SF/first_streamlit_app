@@ -46,4 +46,4 @@ streamlit.dataframe(my_data_rows)
 
 #add text input
 streamlit.text('What fruit would you like to add?')
-streamlit.text_input(add_fruit)
+add_fruit = streamlit.multiselect("Pick some fruits:", list(my_fruit_list.index))
